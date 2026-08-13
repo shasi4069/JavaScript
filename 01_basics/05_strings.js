@@ -1,7 +1,7 @@
 const name="shasi"
 const package="15L"
 // console.log(name + package + " received");
-console.log('hello my name is ${name} and my package is ${package}') ;
+console.log(`hello my name is ${name} and my package is ${package}`) ;
 
 const gamename=new String ('shasi')
 console.log(gamename[1]);

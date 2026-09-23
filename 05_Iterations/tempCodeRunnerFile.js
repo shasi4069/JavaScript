@@ -1,7 +1,4 @@
-let myArray=['flash', 'batsman' , 'superman']
-// let arr=0
-// while (arr<myArray.length) {
-//     console.log(`value is ${myArray[arr]}`);
-//     arr=arr+1
-    
+const programming =["js","rb","java","cpp"]
+// for (const key in programming) {
+//     console.log(programming[key]); 
 // }

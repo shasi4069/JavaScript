@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="container">
+        <h1 id="first">Welcome to My Website</h1>
+       <p class="text">First</p>
+       <p class="text">Second</p>
+       <p class="text">Third</p>
+
+        <span hidden>This can be hidden</span>
+
+    </div>
+    
+
+    <script>
+        let h1 = document.getElementById("first");
+        console.log(h1)
+        let items = document.getElementsByClassName("text");
+        console.log(items);
+        console.log(items[0]);
+        console.log(items[1]);
+        console.log(items[2]);
+        let s1 = document.querySelectorAll;
+        console.log(s1);
+    </script>
+</body>
+</html>
